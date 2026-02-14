@@ -1,5 +1,5 @@
 import multer from "multer"; // Import multer for handling file uploads
-import path from "path"; // Import path module for handling file paths
+import path from "node:path"; // Import path module for handling file paths
 import { fileURLToPath } from "url";
 
 const __filename = fileURLToPath(import.meta.url);
